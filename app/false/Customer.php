@@ -1,17 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Customer extends Model
 {
-
-    //Fillable Example
-    //protected $fillable = ['name', 'email', 'active'];
-
-    //Guarded Example
-    protected $guarded = [];
 
     public function scopeActive($query)
     {
